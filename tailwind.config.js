@@ -9,6 +9,8 @@ module.exports = {
     extend: {
       colors: {
         primary: '#438951',
+        borderColor: '#787878',
+        bgColor: '#EDEDED',
       },
       screens: {
         '8xl': '1440px',
