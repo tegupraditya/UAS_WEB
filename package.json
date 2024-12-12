@@ -4,13 +4,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "build:css": "tailwindcss build -i ./src/input.css -o ./dist/output.css --minify",
+    "watch:css": "nodemon -e html,css -x \"npm run build:css\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "tailwindcss": "^3.4.16"
+    "nodemon": "^3.1.7",
+    "tailwindcss": "^3.4.16",
+    "watch": "^1.0.2"
   }
 }
