@@ -5,17 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
     <title>EcoMerce</title>
+    <style>
+      .bg-home {
+        background-image: url("/dist/img/landing-page.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
   </head>
   <body>
     <!-- Hero Section Start -->
-    <section class="pt-36" id="home">
+    <section class="pt-48 px-20 bg-home h-screen" id="home">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4">
-            <h1 class="text-base font-semibold text-primary">
-              EcoMerce - Marketplace Ramah Lingkungan
-            </h1>
-            <h2 class="">Beli dan jual produk daur ulang dengan mudah</h2>
+            <h1 class="text-6xl font-bold mb-2">EcoMerce</h1>
+            <h2 class="text-2xl font-semibold mb-5">
+              Marketplace <span class="text-primary">Ramah Lingkungan</span>
+            </h2>
+            <p class="font-medium mb-10 text-slate-900">
+              Beli dan jual produk daur ulang dengan mudah!
+            </p>
+
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-primary py-3 px-7 rounded-full hover:shadow-lg hover:bg-green-700 hover:opacity-80 transition duration-300 mr-4"
+              >Join Now!</a
+            >
           </div>
         </div>
       </div>
