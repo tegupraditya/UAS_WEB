@@ -1,0 +1,5 @@
+.background-image {
+  background: url("/dist/img/landing-page.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
