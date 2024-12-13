@@ -11,10 +11,14 @@ module.exports = {
         primary: '#438951',
         borderColor: '#787878',
         bgColor: '#EDEDED',
+        yellowGold: '#fcd34d',
       },
       screens: {
         '8xl': '1440px',
       },
+      width: {
+        'bagSize': "700px"
+      }
     },
   },
   plugins: [],
