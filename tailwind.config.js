@@ -18,6 +18,9 @@ module.exports = {
       },
       width: {
         'bagSize': "700px"
+      },
+      fontFamily: {
+        lato: "Lato"
       }
     },
   },
